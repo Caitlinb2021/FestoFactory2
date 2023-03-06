@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.1" bbox="-21.5682 -6.7945 -27.5224 26.4164 11.2962 32.3853" targetId="74a648bc04d545bcbbdfd2c47cd75e88" name="FestoCaitlin2" pathAuthoring="74a648bc04d545bcbbdfd2c47cd75e88_authoring.glb" pathOcclusion="74a648bc04d545bcbbdfd2c47cd75e88_occlusion.3dt" pathNavMesh="74a648bc04d545bcbbdfd2c47cd75e88_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
