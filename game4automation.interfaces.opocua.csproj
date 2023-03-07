@@ -54,34 +54,29 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\UWP\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\iOS\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Android\Vuforia.Unity.Engine.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoMoveCubeWithDelegate.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\OPCUA_Interface.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\AddressSpace.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\OPCUAClient.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Application.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoMoveCubeWithNodeScript.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Types.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoReadNodeValueWithStatus.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\MemoryBufferExtensions.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoReadNodeNotRecommended.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Server.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\OPCUA_Interface.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\ILogger.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\OPCUA_Node.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\AddressSpace.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\NetDispatcher.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Client.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Security.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Encoding.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoWriteNodeToServer.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoWriteValueWithNodeScriptOnGameObject.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoWriteNodeValueWithStatus.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoTextWithDelegate.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoMoveCubeWithNodeScript.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Security.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\ILogger.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Encoding.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\MemoryBufferExtensions.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\NetDispatcher.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoWriteNodeValueWithStatus.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\private\LibUA\Types.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoReadNodeValueWithStatus.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\OPCUA_Node.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\Demo\DemoWriteNodeToServer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\game4automation\private\Interfaces\OPCUA4Unity\game4automation.interfaces.opocua.asmdef" />

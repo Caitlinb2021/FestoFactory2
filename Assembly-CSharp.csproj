@@ -54,54 +54,49 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\UWP\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\iOS\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Android\Vuforia.Unity.Engine.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ExampleFunctions.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Scripts\ExampleNodeReader.cs" />
-    <Compile Include="Assets\Scripts\SendOrder.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\ExampleFunctions.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\Scripts\JSON\CurrentOrders.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\ExampleFunctionsFurther.cs" />
+    <Compile Include="Assets\Scripts\SendOrder.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\JSON\JsonHelper-1.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\JSON\CurrentOrdersJSON-1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\Scripts\ExampleFunctionsFurther.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -344,38 +339,38 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="I18N">
+      <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.Unity.Wrapper">
+      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
+    </Reference>
     <Reference Include="Sharp7">
       <HintPath>Assets\game4automation\private\Interfaces\S7TCPIP\Sharp7.dll</HintPath>
     </Reference>
     <Reference Include="MathNet.Numerics">
       <HintPath>Assets\game4automation\private\MathNet\MathNet.Numerics.dll</HintPath>
     </Reference>
+    <Reference Include="TwinCAT.Ads">
+      <HintPath>Assets\game4automation\private\Interfaces\TwinCAT\TwinCAT.Ads.dll</HintPath>
+    </Reference>
     <Reference Include="I18N.West">
       <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.West.dll</HintPath>
     </Reference>
-    <Reference Include="EasyModbus">
-      <HintPath>Assets\game4automation\private\Interfaces\Modbus\private\EasyModbus.dll</HintPath>
+    <Reference Include="Vuforia.Unity.Engine">
+      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
     </Reference>
     <Reference Include="Ionic.Zip">
       <HintPath>Assets\game4automation\private\Tools\ZIP\Ionic.Zip.dll</HintPath>
     </Reference>
-    <Reference Include="TDx.TDxInput">
-      <HintPath>Assets\game4automation\private\RuntimeUI\SpaceNavigator\Plugins\TDx.TDxInput.dll</HintPath>
-    </Reference>
-    <Reference Include="TwinCAT.Ads">
-      <HintPath>Assets\game4automation\private\Interfaces\TwinCAT\TwinCAT.Ads.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N">
-      <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.Unity.Wrapper">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
+    <Reference Include="EasyModbus">
+      <HintPath>Assets\game4automation\private\Interfaces\Modbus\private\EasyModbus.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.Unity.Engine">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
+    <Reference Include="TDx.TDxInput">
+      <HintPath>Assets\game4automation\private\RuntimeUI\SpaceNavigator\Plugins\TDx.TDxInput.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
@@ -725,6 +720,9 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -734,14 +732,26 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>Library\ScriptAssemblies\VuforiaEditorScripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -755,113 +765,98 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="VuforiaEditorScripts">
-      <HintPath>Library\ScriptAssemblies\VuforiaEditorScripts.dll</HintPath>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="VuforiaScripts">
       <HintPath>Library\ScriptAssemblies\VuforiaScripts.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="game4automation.editor.csproj">
-      <Project>{07CF9447-1B46-D012-BFBE-5CFE9B7B5AF7}</Project>
-      <Name>game4automation.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="game4automation.interfaces.plcsimadvanced.editor.csproj">
-      <Project>{735D9CC4-1547-ABA5-38B2-F9344EE7A982}</Project>
-      <Name>game4automation.interfaces.plcsimadvanced.editor</Name>
+    <ProjectReference Include="game4automation.interfaces.sharedmemory.csproj">
+      <Project>{47300B75-6CD6-E15E-1822-2A4103B9F5D3}</Project>
+      <Name>game4automation.interfaces.sharedmemory</Name>
     </ProjectReference>
     <ProjectReference Include="game4automation.interfaces.opocua.csproj">
       <Project>{658CD5B5-1A89-2096-5217-5579EBEE200B}</Project>
       <Name>game4automation.interfaces.opocua</Name>
     </ProjectReference>
-    <ProjectReference Include="game4automation.spacenavigator.csproj">
-      <Project>{8050DE60-ADE8-FA28-040F-BACA6FBA6BA0}</Project>
-      <Name>game4automation.spacenavigator</Name>
-    </ProjectReference>
     <ProjectReference Include="game4automation.interfaces.twincatads.csproj">
       <Project>{EFC7D199-48E5-6E35-982A-4C1065FD2A85}</Project>
       <Name>game4automation.interfaces.twincatads</Name>
     </ProjectReference>
-    <ProjectReference Include="game4automation.interfaces.s7tcpip.csproj">
-      <Project>{13ECC2AF-79E3-7CC0-E3DE-81A330F97FE4}</Project>
-      <Name>game4automation.interfaces.s7tcpip</Name>
+    <ProjectReference Include="game4automation.spacenavigator.csproj">
+      <Project>{8050DE60-ADE8-FA28-040F-BACA6FBA6BA0}</Project>
+      <Name>game4automation.spacenavigator</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Core.csproj">
-      <Project>{9E3AE051-D538-0377-2C62-1E8AB78C8CE3}</Project>
-      <Name>NaughtyAttributes.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="game4automation.interfaces.opcua.editor.csproj">
-      <Project>{303FBCF3-FA7A-58A2-4D42-8F5CC8D3C979}</Project>
-      <Name>game4automation.interfaces.opcua.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="game4automation.productivetools.editor.csproj">
-      <Project>{2429E126-2C71-5620-60DF-26AF83CD4F5F}</Project>
-      <Name>game4automation.productivetools.editor</Name>
+    <ProjectReference Include="game4automation.editor.csproj">
+      <Project>{07CF9447-1B46-D012-BFBE-5CFE9B7B5AF7}</Project>
+      <Name>game4automation.editor</Name>
     </ProjectReference>
     <ProjectReference Include="game4automation.sharedmemory.editor.csproj">
       <Project>{77836714-46DA-DB4F-42A7-682CA91B0953}</Project>
       <Name>game4automation.sharedmemory.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="game4automation.interfaces.abbrobotstudio.csproj">
-      <Project>{794FC5A5-98EC-8DA5-D6C7-7CFBC493586A}</Project>
-      <Name>game4automation.interfaces.abbrobotstudio</Name>
+    <ProjectReference Include="EditorMigrationScripts.csproj">
+      <Project>{573BA3A0-0286-CFE2-89C4-DAB42492F522}</Project>
+      <Name>EditorMigrationScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="game4automation.interfaces.plcsimadvanced.editor.csproj">
+      <Project>{735D9CC4-1547-ABA5-38B2-F9344EE7A982}</Project>
+      <Name>game4automation.interfaces.plcsimadvanced.editor</Name>
     </ProjectReference>
     <ProjectReference Include="game4automation.parts4cad.csproj">
       <Project>{8EEC017C-D701-BF28-9CB4-386AAA35E194}</Project>
       <Name>game4automation.parts4cad</Name>
     </ProjectReference>
-    <ProjectReference Include="game4automation.interfaces.sharedmemory.csproj">
-      <Project>{47300B75-6CD6-E15E-1822-2A4103B9F5D3}</Project>
-      <Name>game4automation.interfaces.sharedmemory</Name>
-    </ProjectReference>
     <ProjectReference Include="game4automation.interfaces.plcsimadvanced.csproj">
       <Project>{48CDAAE8-24C8-E7ED-5AC1-7135E98EC71A}</Project>
       <Name>game4automation.interfaces.plcsimadvanced</Name>
     </ProjectReference>
-    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
-      <Project>{3ECF61E3-C8E1-46AE-A6CB-8D19C51F41AD}</Project>
-      <Name>NaughtyAttributes.Editor</Name>
+    <ProjectReference Include="game4automation.interfaces.s7tcpip.csproj">
+      <Project>{13ECC2AF-79E3-7CC0-E3DE-81A330F97FE4}</Project>
+      <Name>game4automation.interfaces.s7tcpip</Name>
     </ProjectReference>
     <ProjectReference Include="game4automation.base.csproj">
       <Project>{1FCB3871-76AF-56B3-9F11-86ED8C87CF66}</Project>
       <Name>game4automation.base</Name>
     </ProjectReference>
-    <ProjectReference Include="game4automation.spacenavigator.editor.csproj">
-      <Project>{3114E5D4-FCAE-F73C-BB98-E7DD485968EA}</Project>
-      <Name>game4automation.spacenavigator.editor</Name>
+    <ProjectReference Include="game4automation.interfaces.abbrobotstudio.csproj">
+      <Project>{794FC5A5-98EC-8DA5-D6C7-7CFBC493586A}</Project>
+      <Name>game4automation.interfaces.abbrobotstudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Editor.csproj">
+      <Project>{3ECF61E3-C8E1-46AE-A6CB-8D19C51F41AD}</Project>
+      <Name>NaughtyAttributes.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NaughtyAttributes.Core.csproj">
+      <Project>{9E3AE051-D538-0377-2C62-1E8AB78C8CE3}</Project>
+      <Name>NaughtyAttributes.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="game4automation.productivetools.editor.csproj">
+      <Project>{2429E126-2C71-5620-60DF-26AF83CD4F5F}</Project>
+      <Name>game4automation.productivetools.editor</Name>
     </ProjectReference>
     <ProjectReference Include="game4automation.parts4cad.editor.csproj">
       <Project>{4813D659-ED6A-9CCF-EED2-12E0E54A8685}</Project>
       <Name>game4automation.parts4cad.editor</Name>
     </ProjectReference>
-    <ProjectReference Include="EditorMigrationScripts.csproj">
-      <Project>{573BA3A0-0286-CFE2-89C4-DAB42492F522}</Project>
-      <Name>EditorMigrationScripts</Name>
+    <ProjectReference Include="game4automation.interfaces.opcua.editor.csproj">
+      <Project>{303FBCF3-FA7A-58A2-4D42-8F5CC8D3C979}</Project>
+      <Name>game4automation.interfaces.opcua.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="game4automation.spacenavigator.editor.csproj">
+      <Project>{3114E5D4-FCAE-F73C-BB98-E7DD485968EA}</Project>
+      <Name>game4automation.spacenavigator.editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

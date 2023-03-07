@@ -54,273 +54,268 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\UWP\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\iOS\Vuforia.Unity.Engine.dll" />
-    <Analyzer Include="C:\unity Projects\FestoFactory2\Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Android\Vuforia.Unity.Engine.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ExposedMethodField.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Event.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\GenericButton.cs" />
-    <Compile Include="Assets\game4automation\Drive_FollowPosition.cs" />
-    <Compile Include="Assets\game4automation\private\MathNet\Distribution.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\RectField.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\RoboDK\RoboDKTarget.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\QualityToggleChange.cs" />
-    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\CADUpdater.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\SintPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\RealPlcMapper.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\ZeroOneTransition.cs" />
     <Compile Include="Assets\game4automation\MeasureForce.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\GameObjectField.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\UIPanelRow.cs" />
-    <Compile Include="Assets\game4automation\Professional\AutoConnectBase.cs" />
-    <Compile Include="Assets\game4automation\Professional\SignalManager.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\CameraPosition.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForUIButton.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\PlcType.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\PseudoSceneSourceTransform.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\VariableSet.cs" />
-    <Compile Include="Assets\game4automation\Measure.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Tag.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_Delay.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\StringPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\ExternalResources\ColorWheel\ColorWheelControl.cs" />
     <Compile Include="Assets\game4automation\private\BaseTransportSurface.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\BoolPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\ToolbarLogoButton.cs" />
-    <Compile Include="Assets\game4automation\SimpleJoint.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\LibraryExtractor.cs" />
-    <Compile Include="Assets\game4automation\Gripper.cs" />
-    <Compile Include="Assets\game4automation\Drive_Sequence.cs" />
-    <Compile Include="Assets\game4automation\StartDriveOnCondition.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\DEBUG_LEVELS.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemTransform.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\IntegerField.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_SetSignalBool.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceBaseClass.cs" />
-    <Compile Include="Assets\game4automation\Sound.cs" />
-    <Compile Include="Assets\game4automation\MoveMU.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector2Field.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForSensor.cs" />
-    <Compile Include="Assets\game4automation\Drive_DestinationMotor.cs" />
-    <Compile Include="Assets\game4automation\Source.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\Simulink\SimulinkInterface.cs" />
-    <Compile Include="Assets\game4automation\ChainElement.cs" />
-    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\CAD.cs" />
-    <Compile Include="Assets\game4automation\Sensor_Standard.cs" />
-    <Compile Include="Assets\game4automation\PartChanger.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\LogEventArgs.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\Inspector.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\DecimalField.cs" />
-    <Compile Include="Assets\game4automation\private\Game4AutomationUI.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\TagInfoPlcMapper.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\LibPlcTagException.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_Robot.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyRootSearch.cs" />
-    <Compile Include="Assets\game4automation\Chain.cs" />
-    <Compile Include="Assets\game4automation\private\Tools\RecalculateMeshNormals.cs" />
-    <Compile Include="Assets\game4automation\private\BaseDrive.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep.cs" />
-    <Compile Include="Assets\game4automation\CAM.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Attributes\RuntimeInspectorButtonAttribute.cs" />
-    <Compile Include="Assets\game4automation\private\BasePath.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\TagOfT.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\DintPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceThreadedBaseClass.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForDrivesAtTarget.cs" />
+    <Compile Include="Assets\game4automation\Grip.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\UISkin.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\ToolbarScaler.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\DemoRDKControl.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\UILamp.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\BezierCurves.cs" />
+    <Compile Include="Assets\game4automation\Drive_Gear.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\PLCInputInt.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\IListViewAdapter.cs" />
+    <Compile Include="Assets\game4automation\private\Game4AutomationBehavior.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForSignalBool.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorUtils.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\Modbus\ModbusData.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\FMI\private\FMI2.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\ButtonEvent.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_BoxConveyor.cs" />
+    <Compile Include="Assets\game4automation\private\BaseSensor.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Status.cs" />
+    <Compile Include="Assets\game4automation\Drive.cs" />
+    <Compile Include="Assets\game4automation\private\BehaviorInterface.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Event.cs" />
+    <Compile Include="Assets\game4automation\Drive_FollowPosition.cs" />
+    <Compile Include="Assets\game4automation\Professional\SignalManager.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\BoolPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemTransform.cs" />
+    <Compile Include="Assets\game4automation\Source.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\LogEventArgs.cs" />
     <Compile Include="Assets\game4automation\CameraDirector.cs" />
     <Compile Include="Assets\game4automation\private\BaseCAM.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\TextureReferenceField.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputBool.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemRoot.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Protocol.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForDrivesAtTarget.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputFloat.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForSensor.cs" />
-    <Compile Include="Assets\game4automation\Grip.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\EthernetIPInterface.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\TextTimer.cs" />
-    <Compile Include="Assets\game4automation\private\Game4AutomationController.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\TouchInteraction.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\UISkin.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForPLCSignal.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\IHierarchyRootContent.cs" />
-    <Compile Include="Assets\game4automation\StartCameraPosition.cs" />
-    <Compile Include="Assets\game4automation\private\Tools\ZIP\ZipUtil.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PointerEventListener.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceUI.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\Extensions\ArrayExtensions.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\SetPLCSignal.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\ToolbarScaler.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Editor\SplineTangentEditor.cs" />
-    <Compile Include="Assets\game4automation\private\SinkEvent.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedMethod.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\FMI\Editor\FMUImporter.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\SceneMouseNavigation.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\DemoRDKControl.cs" />
-    <Compile Include="Assets\game4automation\private\ControlLogic.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectField.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\FMI\FMUInterface.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\NativeTag.cs" />
-    <Compile Include="Assets\game4automation\private\Game4AutomationPhysics.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\INativeTag.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoolField.cs" />
-    <Compile Include="Assets\game4automation\Drive_Speed.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\Signal.cs" />
-    <Compile Include="Assets\game4automation\private\ReadOnlyAtrribute.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\TimerPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\UILamp.cs" />
-    <Compile Include="Assets\game4automation\CAMTime.cs" />
-    <Compile Include="Assets\game4automation\private\BaseSource.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\BezierCurves.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector4Field.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\SceneStats.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\UdtInfoPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\LightGroup.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemSearchEntry.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePickerItem.cs" />
-    <Compile Include="Assets\game4automation\Lamp.cs" />
-    <Compile Include="Assets\game4automation\Sink.cs" />
-    <Compile Include="Assets\game4automation\MaterialChanger.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorSettings.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceCamera.cs" />
-    <Compile Include="Assets\game4automation\CameraPos.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Editor\SplineAnchorEditor.cs" />
-    <Compile Include="Assets\game4automation\Drive_Gear.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\InterfaceSignal.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\DemoGripRobot.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\NativeTagWrapper.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\PlcMapperBase.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineAnchor.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\PLCInputInt.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\IPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\MU.cs" />
-    <Compile Include="Assets\game4automation\private\VR\Stereoscopic.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineTangent.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\CylinderInOut.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\TestSignalChanged.cs" />
-    <Compile Include="Assets\game4automation\private\BaseGrip.cs" />
-    <Compile Include="Assets\game4automation\Professional\PerformanceOptimizer.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\UIMessageBox.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundInputField.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\LibPlcTag.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinnedWindow.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector3Field.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\IListViewAdapter.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\RoboDK\RoboDKInterface.cs" />
     <Compile Include="Assets\game4automation\private\SurgeSpline\Editor\SplineEditor.cs" />
+    <Compile Include="Assets\game4automation\SignalChart.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_StartDriveSpeed.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\HierarchyDragDropListener.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\IntPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedVariablesEnumerator.cs" />
+    <Compile Include="Assets\game4automation\Kinematic.cs" />
+    <Compile Include="Assets\game4automation\Grip_SingleIO.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_StartDriveTo.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\Modbus\ModbusInterface.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\GenericButton.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\GameObjectField.cs" />
+    <Compile Include="Assets\game4automation\Professional\AutoConnectBase.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Tag.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_Delay.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\LibraryExtractor.cs" />
+    <Compile Include="Assets\game4automation\MoveMU.cs" />
+    <Compile Include="Assets\game4automation\Drive_DestinationMotor.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\Inspector.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\DecimalField.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\TagInfoPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\TextureReferenceField.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForPLCSignal.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\IHierarchyRootContent.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedMethod.cs" />
+    <Compile Include="Assets\game4automation\LightGroup.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemSearchEntry.cs" />
+    <Compile Include="Assets\game4automation\MaterialChanger.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\TestSignalChanged.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\InterfaceStructs.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePicker.cs" />
-    <Compile Include="Assets\game4automation\private\Game4AutomationBehavior.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoundsField.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\WindowController.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForSignalBool.cs" />
-    <Compile Include="Assets\game4automation\SignalChart.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\EnumField.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\InspectorController.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\TagEventArgs.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ObjectReferenceField.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_CanConveyor.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_StartDriveSpeed.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ArrayField.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorUtils.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\UILampOn.cs" />
-    <Compile Include="Assets\game4automation\MeasurePLCCycleTime.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\Modbus\ModbusData.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\HierarchyDragDropListener.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\SignalEvent.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\FirstPersonController.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\NativeMethods.cs" />
-    <Compile Include="Assets\game4automation\OnSensorCameraOnMu.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\ITag.cs" />
     <Compile Include="Assets\game4automation\private\DrivesRecording.cs" />
-    <Compile Include="Assets\game4automation\private\ISourceCreated.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\DriveStart.cs" />
-    <Compile Include="Assets\game4automation\MeasureRaycast.cs" />
-    <Compile Include="Assets\game4automation\Group.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyRootPseudoScene.cs" />
-    <Compile Include="Assets\game4automation\Drive_Simple.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\LintPlcMapper.cs" />
     <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\GetPLCSignal.cs" />
-    <Compile Include="Assets\game4automation\private\Resources\Gizmo\Gizmo.cs" />
-    <Compile Include="Assets\game4automation\ForceDrive.cs" />
     <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\DriveStop.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ColorField.cs" />
-    <Compile Include="Assets\game4automation\private\QuickToggle.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\STATUS_CODES.cs" />
-    <Compile Include="Assets\game4automation\Interact3D.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\SettingsController.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceItem.cs" />
-    <Compile Include="Assets\game4automation\TransportSurface.cs" />
+    <Compile Include="Assets\game4automation\private\QuickToggle.cs" />
     <Compile Include="Assets\game4automation\Recorder.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\WindowDragHandler.cs" />
-    <Compile Include="Assets\game4automation\Fixer.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\CurveDetail.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\IntPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\RoboDK\private\RoboDK.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItem.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\FMI\private\FMI2.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputInt.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPickerAlphaSlider.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ExposedVariablesEnumerator.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinUtils.cs" />
-    <Compile Include="Assets\game4automation\Lamp_Connection.cs" />
-    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\DriveTo.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\ButtonEvent.cs" />
-    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\PixyzImporter.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\InspectorField.cs" />
-    <Compile Include="Assets\game4automation\Sensor.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\UIButton.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_BoxConveyor.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceSHMBaseClass.cs" />
-    <Compile Include="Assets\game4automation\private\SceneInfoWindow.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_JumpOnSignal.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPicker.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineFollower.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\plctag.cs" />
-    <Compile Include="Assets\game4automation\ReplayRecording.cs" />
-    <Compile Include="Assets\game4automation\Kinematic.cs" />
+    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\PixyzImporter.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DebugLevel.cs" />
-    <Compile Include="Assets\game4automation\private\IFix.cs" />
-    <Compile Include="Assets\game4automation\Grip_SingleIO.cs" />
-    <Compile Include="Assets\game4automation\private\ISignalInterface.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\UIButtonClick.cs" />
-    <Compile Include="Assets\game4automation\private\BaseSensor.cs" />
-    <Compile Include="Assets\game4automation\Drive_ContinousDestination.cs" />
-    <Compile Include="Assets\game4automation\ConnectSignal.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\HierarchyDisplay.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Utilities\SplineControlledParticleSystem.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\Status.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\EVENT_CODES.cs" />
-    <Compile Include="Assets\game4automation\Drive_ErraticPosition.cs" />
     <Compile Include="Assets\game4automation\private\Interfaces\PLCInputBool.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector.cs" />
     <Compile Include="Assets\game4automation\private\SceneInfo.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyRootScene.cs" />
-    <Compile Include="Assets\game4automation\Drive_Cylinder.cs" />
-    <Compile Include="Assets\game4automation\private\Game4AutomationVersion.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\VirtualCameraController.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Utilities\SplineRenderer.cs" />
-    <Compile Include="Assets\game4automation\Drive.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\UIMessage.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_StartDriveTo.cs" />
-    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_Handling.cs" />
-    <Compile Include="Assets\game4automation\private\BehaviorInterface.cs" />
-    <Compile Include="Assets\game4automation\Professional\AutoConnectExample.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\PLCInputFloat.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\StringField.cs" />
-    <Compile Include="Assets\game4automation\private\Global.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListItem.cs" />
-    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\Spline.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\LrealPlcMapper.cs" />
-    <Compile Include="Assets\game4automation\Professional\LogicStep_DriveTo.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\FMI\private\ModelDescription.cs" />
-    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListView.cs" />
-    <Compile Include="Assets\game4automation\private\Interfaces\Modbus\ModbusInterface.cs" />
     <Compile Include="Assets\game4automation\private\RuntimeUI\ToggleButton.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\QualityToggleChange.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\UIPanelRow.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForUIButton.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\PlcType.cs" />
+    <Compile Include="Assets\game4automation\Gripper.cs" />
+    <Compile Include="Assets\game4automation\StartDriveOnCondition.cs" />
+    <Compile Include="Assets\game4automation\Drive_Sequence.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceBaseClass.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\Simulink\SimulinkInterface.cs" />
+    <Compile Include="Assets\game4automation\private\BaseDrive.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceThreadedBaseClass.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItemRoot.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputBool.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\EthernetIPInterface.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\PointerEventListener.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\SetPLCSignal.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\BoolField.cs" />
+    <Compile Include="Assets\game4automation\Drive_Speed.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RuntimeInspectorSettings.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\DemoGripRobot.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\LibPlcTag.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\BoundInputField.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinnedWindow.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePicker.cs" />
+    <Compile Include="Assets\game4automation\MeasurePLCCycleTime.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\SignalEvent.cs" />
+    <Compile Include="Assets\game4automation\ForceDrive.cs" />
+    <Compile Include="Assets\game4automation\Drive_Simple.cs" />
+    <Compile Include="Assets\game4automation\Sensor.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPicker.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineFollower.cs" />
+    <Compile Include="Assets\game4automation\private\ISignalInterface.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\UIButtonClick.cs" />
+    <Compile Include="Assets\game4automation\Drive_ContinousDestination.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Utilities\SplineControlledParticleSystem.cs" />
+    <Compile Include="Assets\game4automation\Drive_Cylinder.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\VirtualCameraController.cs" />
+    <Compile Include="Assets\game4automation\private\Game4AutomationVersion.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\PLCInputFloat.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\Spline.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ExposedMethodField.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\RealPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\StringPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\DEBUG_LEVELS.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\IntegerField.cs" />
+    <Compile Include="Assets\game4automation\Sensor_Standard.cs" />
+    <Compile Include="Assets\game4automation\Chain.cs" />
+    <Compile Include="Assets\game4automation\private\Game4AutomationController.cs" />
+    <Compile Include="Assets\game4automation\private\Tools\ZIP\ZipUtil.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\Extensions\ArrayExtensions.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\FMI\Editor\FMUImporter.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\SceneMouseNavigation.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\NativeTag.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\TimerPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\CAMTime.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector4Field.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\UdtInfoPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ObjectReferencePicker\ObjectReferencePickerItem.cs" />
+    <Compile Include="Assets\game4automation\CameraPos.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\IPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\MU.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\TagEventArgs.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\ITag.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\DriveStart.cs" />
+    <Compile Include="Assets\game4automation\Group.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ColorField.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceItem.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\HierarchyItem.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\ColorPicker\ColorPickerAlphaSlider.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\InterfaceSHMBaseClass.cs" />
+    <Compile Include="Assets\game4automation\ReplayRecording.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\HierarchyDisplay.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\UIMessage.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\LrealPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\MathNet\Distribution.cs" />
+    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\CADUpdater.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\CameraPosition.cs" />
+    <Compile Include="Assets\game4automation\Measure.cs" />
+    <Compile Include="Assets\game4automation\SimpleJoint.cs" />
+    <Compile Include="Assets\game4automation\private\ProductiveTools\CADUpdater\CAD.cs" />
+    <Compile Include="Assets\game4automation\PartChanger.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\TouchInteraction.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Editor\SplineTangentEditor.cs" />
+    <Compile Include="Assets\game4automation\private\SinkEvent.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Editor\SplineAnchorEditor.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\PlcMapperBase.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\CylinderInOut.cs" />
+    <Compile Include="Assets\game4automation\Professional\PerformanceOptimizer.cs" />
+    <Compile Include="Assets\game4automation\private\BaseGrip.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\UILampOn.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\LintPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\SettingsController.cs" />
+    <Compile Include="Assets\game4automation\TransportSurface.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\DriveTo.cs" />
+    <Compile Include="Assets\game4automation\private\SceneInfoWindow.cs" />
+    <Compile Include="Assets\game4automation\private\IFix.cs" />
+    <Compile Include="Assets\game4automation\Professional\AutoConnectExample.cs" />
+    <Compile Include="Assets\game4automation\private\Global.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\SintPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\ToolbarLogoButton.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_SetSignalBool.cs" />
+    <Compile Include="Assets\game4automation\Sound.cs" />
+    <Compile Include="Assets\game4automation\private\Tools\RecalculateMeshNormals.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputFloat.cs" />
+    <Compile Include="Assets\game4automation\private\PlayMaker\PlayMakerActions\WaitForSensor.cs" />
+    <Compile Include="Assets\game4automation\private\ControlLogic.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\Signal.cs" />
+    <Compile Include="Assets\game4automation\private\BaseSource.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\SceneStats.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\NativeTagWrapper.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineAnchor.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\SplineTangent.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\EnumField.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\InspectorController.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\ArrayField.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\NativeMethods.cs" />
+    <Compile Include="Assets\game4automation\MeasureRaycast.cs" />
+    <Compile Include="Assets\game4automation\private\Resources\Gizmo\Gizmo.cs" />
+    <Compile Include="Assets\game4automation\Interact3D.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\WindowDragHandler.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\PLCOutputInt.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_JumpOnSignal.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\plctag.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag.NativeImport\EVENT_CODES.cs" />
+    <Compile Include="Assets\game4automation\Drive_ErraticPosition.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Utilities\SplineRenderer.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_Handling.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\StringField.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListItem.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\FMI\private\ModelDescription.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\RectField.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeHierarchy\Helpers\PseudoSceneSourceTransform.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\ExternalResources\ColorWheel\ColorWheelControl.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector2Field.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_WaitForSensor.cs" />
+    <Compile Include="Assets\game4automation\ChainElement.cs" />
+    <Compile Include="Assets\game4automation\private\Game4AutomationUI.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_Robot.cs" />
+    <Compile Include="Assets\game4automation\CAM.cs" />
+    <Compile Include="Assets\game4automation\private\BasePath.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\DataTypes\DintPlcMapper.cs" />
+    <Compile Include="Assets\game4automation\StartCameraPosition.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceUI.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\FMI\FMUInterface.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\EthernetIP\libplctag\INativeTag.cs" />
+    <Compile Include="Assets\game4automation\private\Game4AutomationPhysics.cs" />
+    <Compile Include="Assets\game4automation\private\ReadOnlyAtrribute.cs" />
+    <Compile Include="Assets\game4automation\Lamp.cs" />
+    <Compile Include="Assets\game4automation\Sink.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\DraggedReferenceSourceCamera.cs" />
+    <Compile Include="Assets\game4automation\private\VR\Stereoscopic.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Fields\Vector3Field.cs" />
+    <Compile Include="Assets\game4automation\Scenes\DataForDemos\PLC_CanConveyor.cs" />
+    <Compile Include="Assets\game4automation\OnSensorCameraOnMu.cs" />
+    <Compile Include="Assets\game4automation\private\ISourceCreated.cs" />
+    <Compile Include="Assets\game4automation\Fixer.cs" />
+    <Compile Include="Assets\game4automation\private\SurgeSpline\Objects\CurveDetail.cs" />
+    <Compile Include="Assets\game4automation\private\Interfaces\RoboDK\private\RoboDK.cs" />
+    <Compile Include="Assets\game4automation\Lamp_Connection.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Skin\SkinUtils.cs" />
+    <Compile Include="Assets\game4automation\ConnectSignal.cs" />
+    <Compile Include="Assets\game4automation\Professional\LogicStep_DriveTo.cs" />
+    <Compile Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Scripts\RuntimeInspector\Helpers\RecycledListView\RecycledListView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\game4automation\private\RuntimeUI\RuntimeInspector\Shaders\ColorPickerAlphaShader.shader" />
@@ -572,53 +567,8 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Sharp7">
-      <HintPath>Assets\game4automation\private\Interfaces\S7TCPIP\Sharp7.dll</HintPath>
-    </Reference>
-    <Reference Include="MathNet.Numerics">
-      <HintPath>Assets\game4automation\private\MathNet\MathNet.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="I18N.West">
-      <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.West.dll</HintPath>
-    </Reference>
-    <Reference Include="EasyModbus">
-      <HintPath>Assets\game4automation\private\Interfaces\Modbus\private\EasyModbus.dll</HintPath>
-    </Reference>
-    <Reference Include="Ionic.Zip">
-      <HintPath>Assets\game4automation\private\Tools\ZIP\Ionic.Zip.dll</HintPath>
-    </Reference>
-    <Reference Include="TDx.TDxInput">
-      <HintPath>Assets\game4automation\private\RuntimeUI\SpaceNavigator\Plugins\TDx.TDxInput.dll</HintPath>
-    </Reference>
-    <Reference Include="TwinCAT.Ads">
-      <HintPath>Assets\game4automation\private\Interfaces\TwinCAT\TwinCAT.Ads.dll</HintPath>
-    </Reference>
     <Reference Include="I18N">
       <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.Unity.Editor">
       <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll</HintPath>
@@ -626,8 +576,53 @@
     <Reference Include="Vuforia.Unity.Wrapper">
       <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharp7">
+      <HintPath>Assets\game4automation\private\Interfaces\S7TCPIP\Sharp7.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>Assets\game4automation\private\MathNet\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="TwinCAT.Ads">
+      <HintPath>Assets\game4automation\private\Interfaces\TwinCAT\TwinCAT.Ads.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="I18N.West">
+      <HintPath>Assets\game4automation\private\Tools\ZIP\I18N.West.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
     <Reference Include="Vuforia.Unity.Engine">
       <HintPath>Library\PackageCache\com.ptc.vuforia.engine@ad7ad60b4246\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>Assets\game4automation\private\Tools\ZIP\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyModbus">
+      <HintPath>Assets\game4automation\private\Interfaces\Modbus\private\EasyModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="TDx.TDxInput">
+      <HintPath>Assets\game4automation\private\RuntimeUI\SpaceNavigator\Plugins\TDx.TDxInput.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
