@@ -35,7 +35,7 @@ public class CurrentOrders: MonoBehaviour
 
             //CurrentOrderData.Add("Order Number: " + currentOrdersObjectArray[i].ONo + ", Company Name: " + currentOrdersObjectArray[i].Company + ", Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
             
-            CurrentOrderData.Add("Current Orders" + "\n" + "Current Order Number: " + currentOrdersObjectArray[i].ONo + ", " + "Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
+            CurrentOrderData.Add("Current Order Number: " + currentOrdersObjectArray[i].ONo + ", " + "Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
         }
 
         foreach(var listMember in CurrentOrderData)                 

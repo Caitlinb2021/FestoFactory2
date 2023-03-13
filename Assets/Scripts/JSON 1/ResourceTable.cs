@@ -35,7 +35,7 @@ public class ResourceTable : MonoBehaviour
 
             //CurrentOrderData.Add("Order Number: " + currentOrdersObjectArray[i].ONo + ", Company Name: " + currentOrdersObjectArray[i].Company + ", Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
 
-            CurrentOrderData.Add("Resource Table" + "\n" + "Table Number: " + tableOrdersObjectArray[i].ONo + ", " + "Step No: " + tableOrdersObjectArray[i].StepNo);
+            CurrentOrderData.Add("Table Number: " + tableOrdersObjectArray[i].ONo + "Step No: " + tableOrdersObjectArray[i].StepNo);
         }
 
         foreach(var listMember in CurrentOrderData)                 

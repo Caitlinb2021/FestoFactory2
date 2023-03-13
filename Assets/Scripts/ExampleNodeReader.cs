@@ -18,6 +18,9 @@ public class ExampleNodeReader : MonoBehaviour
     public TMP_Text uiFeedbackTMP;
     public string dataFromOPCUANode;
 
+    public TMP_Text uiFeedbackTMP2;
+    public string FromOPCUANode;
+
 
     void Start()
     {
@@ -57,6 +60,7 @@ public class ExampleNodeReader : MonoBehaviour
     private void Update()
     {
         uiFeedbackTMP.text = "Factory machine " + factoryMachineID + " just registered " + nodeBeingMonitored + " as " + dataFromOPCUANode;
+        uiFeedbackTMP2.text = "Factory machine " + factoryMachineID + " just registered " + nodeBeingMonitored + " as " + FromOPCUANode;
     }
 }
 
