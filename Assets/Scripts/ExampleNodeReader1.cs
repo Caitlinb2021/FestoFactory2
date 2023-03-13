@@ -59,3 +59,5 @@ public class ExampleNodeReader : MonoBehaviour
         uiFeedbackTMP.text = "Factory machine " + factoryMachineID + " just registered " + nodeBeingMonitored + " as " + dataFromOPCUANode;
     }
 }
+
+

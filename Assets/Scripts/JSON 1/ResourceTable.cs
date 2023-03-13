@@ -6,15 +6,17 @@ using System.Collections.Generic;
 using TMPro;
 
 
-public class CurrentOrders: MonoBehaviour
+public class ResourceTable : MonoBehaviour
 {
     public List<string> CurrentOrderData = new List<string>();    
 
-    public CurrentOrderJSON[] currentOrdersObjectArray;      
+    public TableOrdersJSON[] tableOrdersObjectArray;      
 
     public string listInfo;                                  
 
-    public TMP_Text info;                                 
+    public TMP_Text info;
+
+    public string requestURL;
 
     public void ReceieveData(string CurrentOrderStringPHPMany)
     {
@@ -22,16 +24,18 @@ public class CurrentOrders: MonoBehaviour
 
         Debug.LogWarning(newCurrentOrderStringPHPMany);                                    
 
-        currentOrdersObjectArray = JsonHelper.FromJson<CurrentOrderJSON>(newCurrentOrderStringPHPMany);    
+        tableOrdersObjectArray = JsonHelper.FromJson<TableOrdersJSON>(newCurrentOrderStringPHPMany);    
 
         CurrentOrderData.Clear();                                                
         listInfo = "";                                                              
 
-        for (int i = 0; i < currentOrdersObjectArray.Length; i++)                     
+        for (int i = 0; i < tableOrdersObjectArray.Length; i++)                     
         {
-            Debug.LogWarning("ONo:" + currentOrdersObjectArray[i].ONo + ", Company:" + currentOrdersObjectArray[i].Company + ", Planned Start:" + currentOrdersObjectArray[i].PlannedStart + ", Planned End:" + currentOrdersObjectArray[i].PlannedEnd + ", State:" + currentOrdersObjectArray[i].State);
+            Debug.LogWarning("ONo:" + tableOrdersObjectArray[i].ONo + ", Company:" + tableOrdersObjectArray[i].StepNo);
 
-            CurrentOrderData.Add("Order Number: " + currentOrdersObjectArray[i].ONo + ", Company Name: " + currentOrdersObjectArray[i].Company + ", Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
+            //CurrentOrderData.Add("Order Number: " + currentOrdersObjectArray[i].ONo + ", Company Name: " + currentOrdersObjectArray[i].Company + ", Planned Start Time: " + currentOrdersObjectArray[i].PlannedStart + ", Planned End Time: " + currentOrdersObjectArray[i].PlannedEnd + ", Build State: " + currentOrdersObjectArray[i].State);
+
+            CurrentOrderData.Add("Resource Table" + "\n" + "Table Number: " + tableOrdersObjectArray[i].ONo + ", " + "Step No: " + tableOrdersObjectArray[i].StepNo);
         }
 
         foreach(var listMember in CurrentOrderData)                 
@@ -50,7 +54,7 @@ public class CurrentOrders: MonoBehaviour
 
     public void GetRequestPublic()
     {
-        StartCoroutine(GetRequest("http://172.21.0.90/SQLData.php?Command=currentOrders"));     //calls coroutine and sets string
+        StartCoroutine(GetRequest(requestURL));     //calls coroutine and sets string
     }
 
     IEnumerator GetRequest(string url)
@@ -75,7 +79,7 @@ public class CurrentOrders: MonoBehaviour
                 case UnityWebRequest.Result.Success:
                     Debug.Log(pages[page] + ":\nReceived: " + webRequest.downloadHandler.text);
                     ReceieveData(webRequest.downloadHandler.text);
-                    Debug.LogError("Current Orders Success");
+                    Debug.LogError("ResourceTable Orders Success");
 
                     break;
             }
