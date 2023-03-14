@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\JSON 1\FinishedOrdersJSON.cs" />
     <Compile Include="Assets\Scripts\JSON 1\ResourceTable.cs" />
     <Compile Include="Assets\Scripts\JSON 1\TableOrders.cs" />
+    <Compile Include="Assets\Scripts\DTCmaera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
