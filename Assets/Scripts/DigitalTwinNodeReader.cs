@@ -18,12 +18,15 @@ public class DigitalTwinNodeReader : MonoBehaviour
     public GameObject EmergencyStopSphere; 
     public string dataFromOPCUANode;
 
+    public AudioSource AudioSource;
+
 
     void Start()
     {
         Interface.EventOnConnected.AddListener(OnInterfaceConnected);
         Interface.EventOnConnected.AddListener(OnInterfaceDisconnected);
         Interface.EventOnConnected.AddListener(OnInterfaceReconnect);
+        AudioSource = GetComponent<AudioSource>();
     }
 
 
@@ -63,6 +66,8 @@ public class DigitalTwinNodeReader : MonoBehaviour
        else
         {
             EmergencyStopSphere.GetComponent <MeshRenderer>().material = BadMaterial;
+
+            GetComponent<AudioSource>().Play();
         }
     }
 }
